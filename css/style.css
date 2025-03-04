@@ -141,3 +141,10 @@ a {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+footer {
+    padding: 10px 0;
+    position: grid;
+    bottom: 0;
+    width: 100%;
+}
