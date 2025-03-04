@@ -97,6 +97,7 @@ div h4 {
     color: var(--white);
     border-radius: 10px;
     box-shadow: 0 4px 8px var(--box-shadow);
+    width: 45rem;
 }
 
 .btn-primary {
