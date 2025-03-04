@@ -1,0 +1,7 @@
+:root {
+    --dark-blue: #00008B;
+}
+
+.col-4.bg-primary {
+    background-color: var(--dark-blue);
+}
