@@ -18,7 +18,7 @@ body {
     display: flex;   
     grid-template-columns: repeat(3, 1fr);   
     gap: 10px;   
-    width: 90%; /* Match the width of the background image */
+    width: 90%; 
     padding: 10px 10px;  
     margin: 0 auto;   
 }
