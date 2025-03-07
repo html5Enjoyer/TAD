@@ -13,4 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
   showImgButton.addEventListener('click', () => {
     window.open("img/khat.gif", "_blank", "width=600,height=400");
   });
+
+  const toastButton = document.getElementById('toastButton');
+  toastButton.addEventListener('click', function () {
+    var toastEl = document.getElementById('galaxiasToast');
+    var toast = new bootstrap.Toast(toastEl);
+    toast.show();
+  });
 });
